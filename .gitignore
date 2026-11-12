@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and local data
+.env
+data/incoming/*
+data/processed/*
+data/failed/*
+!data/**/.gitkeep
+
+logs/
